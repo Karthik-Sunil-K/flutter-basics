@@ -10,7 +10,9 @@ class ButtonSample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: FlatButton(
+        child : Column(
+          children: [
+            FlatButton(
           onPressed: (){
             print("button clicked");
           },
@@ -26,7 +28,24 @@ class ButtonSample extends StatelessWidget {
           shape: StadiumBorder(),
           disabledTextColor: Colors.indigo,
           padding: EdgeInsets.all(8)
-          )
+          ),
+          SizedBox(height: 50,),
+
+          IconButton(
+            icon: Icon(Icons.chat),
+           onPressed: (){
+            print("icon butoon pressed");
+          },
+          color: Colors.blue,
+          ),
+          SizedBox(height: 30,),
+          IconButton(icon: Icon(Icons.chat),
+           onPressed: (){
+            print("icon butoon pressed");
+          }),
+
+          ],
+        )
       ),
     );
   }
