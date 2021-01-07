@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 
 class ButtonSample extends StatelessWidget {
 
-  void sampleFunction(){
-
-  }
+  
   @override
   Widget build(BuildContext context) {
     return Container(
