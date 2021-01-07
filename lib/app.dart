@@ -56,8 +56,9 @@ class App extends StatelessWidget {
                     fontSize: 30,
                     fontWeight: FontWeight.bold,
                     letterSpacing: 4,
-                    fontStyle: FontStyle.italic
-                  
+                    fontStyle: FontStyle.italic,
+                    fontFamily: "Karthik Font"
+                   
                   ) ,
                   ),
                   
